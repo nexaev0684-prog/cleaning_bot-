@@ -6,13 +6,6 @@ import os
 from datetime import datetime
 import time
 
-# ========== НАСТРОЙКА ПРОКСИ ==========
-# Ваши настройки из ссылки: socks5://127.0.0.1:1080
-apihelper.proxy = {
-    'http': 'socks5://127.0.0.1:1080',
-    'https': 'socks5://127.0.0.1:1080'
-}
-
 # ========== ВАШ ТОКЕН ==========
 # ВСТАВЬТЕ СВОЙ ТОКЕН ОТ @BotFather
 TOKEN = "8514292885:AAFfAFykQvQS0eE76qGxToERtF3TQiIFxKo"  # Замените на реальный токен!
